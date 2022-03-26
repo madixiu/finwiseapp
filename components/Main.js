@@ -10,7 +10,7 @@ const Tab = createMaterialBottomTabNavigator();
 export class Main extends Component {
     render() {
         return (
-            <Tab.Navigator initialRouteName="Home" labeled={true}>
+            <Tab.Navigator initialRouteName="Home" labeled={true} backBehavior='none'>
              <Tab.Screen name="AddContainer" component={AddScreen}
                 // listeners={({ navigation }) => ({
                     //     tabPress: event => {

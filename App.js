@@ -11,7 +11,7 @@ function LogoTitle() {
   return (
     <View style={styles.header}>
     <View style={styles.row}>
-      <Image style={{ width: 20, height: 20,marginRight:5 }}
+      <Image style={{ width: 15, height: 15,marginRight:5 }}
       source={require('./assets/Logo.png')}/>
       <Text style={styles.headerTitle}>FinWise</Text>
     </View>
